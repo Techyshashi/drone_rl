@@ -1,0 +1,13 @@
+﻿__pycache__/
+*.pyc
+.venv/
+drone_rl/
+*.log
+.vscode/
+# trained models and big data (see note below)
+*.zip
+*.pkl
+*.npz
+tb/
+runs/
+drive_dl*/

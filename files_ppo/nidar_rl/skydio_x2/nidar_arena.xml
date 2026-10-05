@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mujoco model="nidar_airmouse_arena">
+  <worldbody>
+    <light pos="7.375 7.375 10" dir="0 0 -1" castshadow="false" />
+    <geom name="floor" type="plane" size="9.375 9.375 0.1" rgba="0.8 0.8 0.8 1" pos="7.3750 7.3750 0" />
+    <geom type="box" pos="3.1750 0.0250 1.2192" size="3.1750 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_0" />
+    <geom type="box" pos="11.0500 0.0250 1.2192" size="3.7000 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_1" />
+    <geom type="box" pos="0.0250 7.3750 1.2192" size="0.0250 7.3750 1.2192" rgba="0.4 0.4 0.4 1" name="wall_2" />
+    <geom type="box" pos="5.2750 1.0750 1.2192" size="4.2250 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_3" />
+    <geom type="box" pos="12.1000 1.0750 1.2192" size="1.6000 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_4" />
+    <geom type="box" pos="1.0750 2.1250 1.2192" size="0.0250 1.0750 1.2192" rgba="0.4 0.4 0.4 1" name="wall_5" />
+    <geom type="box" pos="1.0750 6.8500 1.2192" size="0.0250 1.6000 1.2192" rgba="0.4 0.4 0.4 1" name="wall_6" />
+    <geom type="box" pos="1.0750 11.0500 1.2192" size="0.0250 0.5500 1.2192" rgba="0.4 0.4 0.4 1" name="wall_7" />
+    <geom type="box" pos="2.1250 6.8500 1.2192" size="0.0250 0.5500 1.2192" rgba="0.4 0.4 0.4 1" name="wall_8" />
+    <geom type="box" pos="2.1250 10.0000 1.2192" size="0.0250 1.6000 1.2192" rgba="0.4 0.4 0.4 1" name="wall_9" />
+    <geom type="box" pos="2.1250 13.6750 1.2192" size="0.0250 1.0750 1.2192" rgba="0.4 0.4 0.4 1" name="wall_10" />
+    <geom type="box" pos="4.7500 3.1750 1.2192" size="3.7000 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_11" />
+    <geom type="box" pos="11.5750 3.1750 1.2192" size="1.0750 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_12" />
+    <geom type="box" pos="3.1750 9.4750 1.2192" size="0.0250 1.0750 1.2192" rgba="0.4 0.4 0.4 1" name="wall_13" />
+    <geom type="box" pos="3.1750 13.6750 1.2192" size="0.0250 1.0750 1.2192" rgba="0.4 0.4 0.4 1" name="wall_14" />
+    <geom type="box" pos="3.7000 4.2250 1.2192" size="3.7000 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_15" />
+    <geom type="box" pos="10.5250 4.2250 1.2192" size="1.0750 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_16" />
+    <geom type="box" pos="4.2250 8.4250 1.2192" size="0.0250 1.0750 1.2192" rgba="0.4 0.4 0.4 1" name="wall_17" />
+    <geom type="box" pos="3.7000 5.2750 1.2192" size="2.6500 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_18" />
+    <geom type="box" pos="10.0000 5.2750 1.2192" size="1.6000 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_19" />
+    <geom type="box" pos="5.2750 7.3750 1.2192" size="0.0250 1.0750 1.2192" rgba="0.4 0.4 0.4 1" name="wall_20" />
+    <geom type="box" pos="5.2750 11.0500 1.2192" size="0.0250 0.5500 1.2192" rgba="0.4 0.4 0.4 1" name="wall_21" />
+    <geom type="box" pos="5.2750 13.6750 1.2192" size="0.0250 1.0750 1.2192" rgba="0.4 0.4 0.4 1" name="wall_22" />
+    <geom type="box" pos="3.7000 6.3250 1.2192" size="1.6000 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_23" />
+    <geom type="box" pos="8.4250 6.3250 1.2192" size="1.0750 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_24" />
+    <geom type="box" pos="11.5750 6.3250 1.2192" size="1.0750 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_25" />
+    <geom type="box" pos="6.3250 6.3250 1.2192" size="0.0250 1.0750 1.2192" rgba="0.4 0.4 0.4 1" name="wall_26" />
+    <geom type="box" pos="6.3250 10.5250 1.2192" size="0.0250 1.0750 1.2192" rgba="0.4 0.4 0.4 1" name="wall_27" />
+    <geom type="box" pos="3.1750 7.3750 1.2192" size="1.0750 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_28" />
+    <geom type="box" pos="7.9000 7.3750 1.2192" size="1.6000 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_29" />
+    <geom type="box" pos="12.6250 7.3750 1.2192" size="1.0750 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_30" />
+    <geom type="box" pos="7.3750 5.2750 1.2192" size="0.0250 1.0750 1.2192" rgba="0.4 0.4 0.4 1" name="wall_31" />
+    <geom type="box" pos="7.3750 9.4750 1.2192" size="0.0250 1.0750 1.2192" rgba="0.4 0.4 0.4 1" name="wall_32" />
+    <geom type="box" pos="7.3750 13.6750 1.2192" size="0.0250 1.0750 1.2192" rgba="0.4 0.4 0.4 1" name="wall_33" />
+    <geom type="box" pos="0.5500 8.4250 1.2192" size="0.5500 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_34" />
+    <geom type="box" pos="2.6500 8.4250 1.2192" size="0.5500 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_35" />
+    <geom type="box" pos="6.8500 8.4250 1.2192" size="1.6000 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_36" />
+    <geom type="box" pos="10.0000 8.4250 1.2192" size="0.5500 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_37" />
+    <geom type="box" pos="13.1500 8.4250 1.2192" size="0.5500 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_38" />
+    <geom type="box" pos="8.4250 4.2250 1.2192" size="0.0250 1.0750 1.2192" rgba="0.4 0.4 0.4 1" name="wall_39" />
+    <geom type="box" pos="5.2750 9.4750 1.2192" size="1.0750 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_40" />
+    <geom type="box" pos="10.5250 9.4750 1.2192" size="1.0750 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_41" />
+    <geom type="box" pos="9.4750 2.6500 1.2192" size="0.0250 1.6000 1.2192" rgba="0.4 0.4 0.4 1" name="wall_42" />
+    <geom type="box" pos="9.4750 6.8500 1.2192" size="0.0250 0.5500 1.2192" rgba="0.4 0.4 0.4 1" name="wall_43" />
+    <geom type="box" pos="9.4750 8.9500 1.2192" size="0.0250 0.5500 1.2192" rgba="0.4 0.4 0.4 1" name="wall_44" />
+    <geom type="box" pos="9.4750 11.0500 1.2192" size="0.0250 0.5500 1.2192" rgba="0.4 0.4 0.4 1" name="wall_45" />
+    <geom type="box" pos="9.4750 13.6750 1.2192" size="0.0250 1.0750 1.2192" rgba="0.4 0.4 0.4 1" name="wall_46" />
+    <geom type="box" pos="0.5500 10.5250 1.2192" size="0.5500 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_47" />
+    <geom type="box" pos="4.2250 10.5250 1.2192" size="1.0750 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_48" />
+    <geom type="box" pos="8.4250 10.5250 1.2192" size="1.0750 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_49" />
+    <geom type="box" pos="11.5750 10.5250 1.2192" size="1.0750 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_50" />
+    <geom type="box" pos="10.5250 2.1250 1.2192" size="0.0250 1.0750 1.2192" rgba="0.4 0.4 0.4 1" name="wall_51" />
+    <geom type="box" pos="10.5250 7.3750 1.2192" size="0.0250 1.0750 1.2192" rgba="0.4 0.4 0.4 1" name="wall_52" />
+    <geom type="box" pos="10.5250 11.0500 1.2192" size="0.0250 0.5500 1.2192" rgba="0.4 0.4 0.4 1" name="wall_53" />
+    <geom type="box" pos="0.5500 11.5750 1.2192" size="0.5500 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_54" />
+    <geom type="box" pos="3.7000 11.5750 1.2192" size="1.6000 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_55" />
+    <geom type="box" pos="7.9000 11.5750 1.2192" size="1.6000 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_56" />
+    <geom type="box" pos="12.1000 11.5750 1.2192" size="1.6000 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_57" />
+    <geom type="box" pos="11.5750 4.7500 1.2192" size="0.0250 0.5500 1.2192" rgba="0.4 0.4 0.4 1" name="wall_58" />
+    <geom type="box" pos="11.5750 8.4250 1.2192" size="0.0250 1.0750 1.2192" rgba="0.4 0.4 0.4 1" name="wall_59" />
+    <geom type="box" pos="11.5750 13.6750 1.2192" size="0.0250 1.0750 1.2192" rgba="0.4 0.4 0.4 1" name="wall_60" />
+    <geom type="box" pos="0.5500 12.6250 1.2192" size="0.5500 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_61" />
+    <geom type="box" pos="3.1750 12.6250 1.2192" size="1.0750 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_62" />
+    <geom type="box" pos="6.3250 12.6250 1.2192" size="1.0750 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_63" />
+    <geom type="box" pos="10.5250 12.6250 1.2192" size="2.1250 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_64" />
+    <geom type="box" pos="14.2000 12.6250 1.2192" size="0.5500 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_65" />
+    <geom type="box" pos="12.6250 4.7500 1.2192" size="0.0250 1.6000 1.2192" rgba="0.4 0.4 0.4 1" name="wall_66" />
+    <geom type="box" pos="12.6250 9.4750 1.2192" size="0.0250 1.0750 1.2192" rgba="0.4 0.4 0.4 1" name="wall_67" />
+    <geom type="box" pos="13.6750 4.2250 1.2192" size="0.0250 3.1750 1.2192" rgba="0.4 0.4 0.4 1" name="wall_68" />
+    <geom type="box" pos="13.6750 10.0000 1.2192" size="0.0250 1.6000 1.2192" rgba="0.4 0.4 0.4 1" name="wall_69" />
+    <geom type="box" pos="13.6750 13.6750 1.2192" size="0.0250 1.0750 1.2192" rgba="0.4 0.4 0.4 1" name="wall_70" />
+    <geom type="box" pos="7.3750 14.7250 1.2192" size="7.3750 0.0250 1.2192" rgba="0.4 0.4 0.4 1" name="wall_71" />
+    <geom type="box" pos="14.7250 7.3750 1.2192" size="0.0250 7.3750 1.2192" rgba="0.4 0.4 0.4 1" name="wall_72" />
+    <geom type="box" pos="7.3750 7.3750 2.4434" size="7.3750 7.3750 0.0050" rgba="0.7 0.7 0.7 0.12" name="ceiling_net" />
+    <geom type="box" pos="6.8500 0.5500 0.0020" size="0.4000 0.4000 0.0020" rgba="1 0.8 0 1" name="gate_entry_exit_tile" contype="0" conaffinity="0" />
+    <geom type="box" pos="6.3200 0.0250 1.2192" size="0.0300 0.0350 1.2192" rgba="1 0.8 0 1" name="gate_entry_exit_post_n" contype="0" conaffinity="0" />
+    <geom type="box" pos="7.3800 0.0250 1.2192" size="0.0300 0.0350 1.2192" rgba="1 0.8 0 1" name="gate_entry_exit_post_p" contype="0" conaffinity="0" />
+    <geom type="box" pos="6.8500 -0.6048 0.0020" size="0.3048 0.3048 0.0020" rgba="0.8 0.2 0.2 1" name="launch_pad" contype="0" conaffinity="0" />
+    <geom type="box" pos="1.6000 12.6250 0.0020" size="0.4000 0.0400 0.0020" rgba="0.2 0.5 0.9 1" name="door_marker_0" contype="0" conaffinity="0" />
+    <geom type="box" pos="4.7500 12.6250 0.0020" size="0.4000 0.0400 0.0020" rgba="0.2 0.5 0.9 1" name="door_marker_1" contype="0" conaffinity="0" />
+    <geom type="box" pos="7.9000 12.6250 0.0020" size="0.4000 0.0400 0.0020" rgba="0.2 0.5 0.9 1" name="door_marker_2" contype="0" conaffinity="0" />
+    <geom type="box" pos="13.1500 12.6250 0.0020" size="0.4000 0.0400 0.0020" rgba="0.2 0.5 0.9 1" name="door_marker_3" contype="0" conaffinity="0" />
+    <geom type="box" pos="1.6000 10.5250 0.0020" size="0.4000 0.0400 0.0020" rgba="0.2 0.5 0.9 1" name="door_marker_4" contype="0" conaffinity="0" />
+    <geom type="box" pos="1.6000 8.4250 0.0020" size="0.4000 0.0400 0.0020" rgba="0.2 0.5 0.9 1" name="door_marker_5" contype="0" conaffinity="0" />
+    <geom type="box" pos="9.4750 10.0000 0.0020" size="0.0400 0.4000 0.0020" rgba="0.2 0.5 0.9 1" name="door_marker_6" contype="0" conaffinity="0" />
+    <geom type="box" pos="8.9500 8.4250 0.0020" size="0.4000 0.0400 0.0020" rgba="0.2 0.5 0.9 1" name="door_marker_7" contype="0" conaffinity="0" />
+    <geom type="box" pos="0.5500 14.2000 0.2000" size="0.2000 0.2000 0.2000" rgba="0 0.8 0 1" name="survivor_1" />
+    <geom type="box" pos="3.7000 14.2000 0.2000" size="0.2000 0.2000 0.2000" rgba="0 0.8 0 1" name="survivor_2" />
+    <geom type="box" pos="8.9500 14.2000 0.2000" size="0.2000 0.2000 0.2000" rgba="0 0.8 0 1" name="survivor_3" />
+    <geom type="box" pos="12.1000 14.2000 0.2000" size="0.2000 0.2000 0.2000" rgba="0 0.8 0 1" name="survivor_4" />
+    <geom type="box" pos="0.5500 8.9500 0.2000" size="0.2000 0.2000 0.2000" rgba="0 0.8 0 1" name="survivor_5" />
+    <geom type="box" pos="7.9000 8.9500 0.2000" size="0.2000 0.2000 0.2000" rgba="0 0.8 0 1" name="survivor_6" />
+  </worldbody>
+</mujoco>
